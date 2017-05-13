@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xiaofu.myclock.MainActivity">
+
+    <com.xiaofu.myclock.MyClockView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        app:clock_calibration_color="#ccff9900"
+        app:clock_hour_color="#9fe3f6"
+        app:clock_minute_color="#cc0000"
+        app:clock_second_color="#0099FF"/>
+
+</android.support.constraint.ConstraintLayout>
